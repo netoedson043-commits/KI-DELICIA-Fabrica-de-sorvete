@@ -1,0 +1,56 @@
+.footer { background: var(--dark); color: #c8b5af; padding-top: 56px; }
+.footer__inner {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  gap: 40px;
+  padding-bottom: 40px;
+}
+.footer__logo    { height: 60px; margin-bottom: 12px; }
+.footer__brand p { font-size: 0.95rem; line-height: 1.7; opacity: 0.8; }
+
+.footer__links h4,
+.footer__contact h4 { font-family: var(--font-display); font-weight: 700; color: var(--white); margin-bottom: 14px; font-size: 1rem; }
+
+.footer__links ul li + li { margin-top: 8px; }
+.footer__links a,
+.footer__contact a { color: #c8b5af; font-size: 0.95rem; transition: var(--transition); }
+.footer__links a:hover,
+.footer__contact a:hover { color: var(--coral); }
+
+.footer__contact p { margin-bottom: 6px; font-size: 0.95rem; }
+
+.footer__bottom {
+  border-top: 1px solid rgba(255,255,255,0.08);
+  padding: 18px 24px;
+  text-align: center;
+  font-size: 0.85rem;
+  opacity: 0.5;
+}
+
+.wpp-float {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 200;
+  background: #25D366;
+  color: var(--white);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(37,211,102,0.5);
+  transition: var(--transition);
+  animation: wppPulse 2.5s infinite;
+}
+.wpp-float:hover { transform: scale(1.1); }
+
+@keyframes wppPulse {
+  0%, 100% { box-shadow: 0 4px 20px rgba(37,211,102,0.5); }
+  50%       { box-shadow: 0 4px 32px rgba(37,211,102,0.8); }
+}
+
+.wpp-cta { background: var(--white); text-align: center; }
+.wpp-cta__inner h2 { font-family: var(--font-display); font-size: clamp(1.8rem,3.5vw,2.4rem); font-weight: 800; color: var(--dark); margin-bottom: 12px; }
+.wpp-cta__inner p  { color: var(--gray); font-size: 1.05rem; margin-bottom: 32px; }

@@ -1,0 +1,81 @@
+<template id="produto-gelo-template">
+  <div class="prod-block">
+    <button class="prod-card" data-target="painel-gelo" aria-expanded="false">
+      <div class="prod-card__img-wrap prod-card__img-wrap--gelo">
+        <img
+          src="assets/gelo.png"
+          alt="Gelo Ki-Delicia"
+          class="prod-card__img"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+        />
+        <div class="prod-card__img-fallback">🧊</div>
+      </div>
+
+      <div class="prod-card__info">
+        <h2 class="prod-card__title">Gelo</h2>
+        <p class="prod-card__desc">Gelo em cubo e filtrado de alta qualidade em sacos práticos.</p>
+        <div class="prod-card__tags">
+          <span class="prod-card__count">2 tamanhos</span>
+        </div>
+      </div>
+
+      <div class="prod-card__arrow">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="6 9 12 15 18 9"/>
+        </svg>
+      </div>
+    </button>
+
+    <div class="sabores-panel" id="painel-gelo">
+      <div class="sabores-panel__inner">
+        <p class="sabores-panel__titulo">Escolha o tamanho 🧊</p>
+
+        <div class="gelo-opcoes">
+          <div class="gelo-opc">
+            <div class="gelo-opc__visual">
+              <span>🧊</span>
+              <div class="gelo-opc__cubes">
+                <div class="cube"></div><div class="cube"></div><div class="cube"></div>
+                <div class="cube"></div><div class="cube"></div><div class="cube"></div>
+              </div>
+            </div>
+
+            <div class="gelo-opc__body">
+              <h3>Saco de 10 kg</h3>
+              <p>Ideal para eventos, bares e restaurantes, Vendemos no atacado e varejo.</p>
+              <ul>
+                <li>✅ Gelo filtrando</li>
+                <li>✅ Gelo em cubo</li>
+                <li>✅ Entrega rápida</li>
+                <li>✅ Ideal para eventos</li>
+              </ul>
+              <a href="#" class="btn btn--primary wpp-link" data-msg="Olá! Quero pedir Gelo 10kg ">Pedir 10 kg</a>
+            </div>
+          </div>
+
+          <div class="gelo-opc">
+            <div class="gelo-opc__visual">
+              <span>🧊</span>
+              <div class="gelo-opc__cubes gelo-opc__cubes--sm">
+                <div class="cube"></div><div class="cube"></div><div class="cube"></div>
+              </div>
+            </div>
+
+            <div class="gelo-opc__body">
+              <h3>Saco de 5 kg</h3>
+              <p>Tamanho prático para uso doméstico e pequenos eventos, Usado em drinks, Vendemos no atacado e varejo.</p>
+              <ul>
+                <li>✅ Gelo filtrando</li>
+                <li>✅ Gelo em cubo</li>
+                <li>✅ Fácil de carregar</li>
+                <li>✅ Preço acessível, ideal para cooler</li>
+              </ul>
+              <a href="#" class="btn btn--primary wpp-link" data-msg="Olá! Quero pedir Gelo 5kg ">Pedir 5 kg</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</template>
