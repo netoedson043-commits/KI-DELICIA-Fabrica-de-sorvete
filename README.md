@@ -97,7 +97,7 @@ O site conta com um sistema responsivo que se adapta automaticamente para difere
 
 ## 🔗 Projeto Online
 
-https://netoedson043-commits.github.io/KI-DELICIA/
+https://netoedson043-commits.github.io/KI-DELICIA-Fabrica-de-sorvete/
 
 ---
 
@@ -193,7 +193,7 @@ The website includes a responsive system that automatically adapts to different 
 
 ## 🔗 Live Project
 
-https://netoedson043-commits.github.io/KI-DELICIA/
+https://netoedson043-commits.github.io/KI-DELICIA-Fabrica-de-sorvete/
 
 ---
 
